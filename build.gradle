@@ -1,19 +1,11 @@
-
-
 buildscript {
     repositories {
         mavenCentral()
     }
     dependencies {
-
         classpath 'com.h2database:h2:1.4.187'
         classpath "org.flywaydb:flyway-gradle-plugin:3.2.1"
     }
-}
-
-
-plugins {
-    id "org.flywaydb.flyway" version "3.2"
 }
 
 apply plugin: 'org.flywaydb.flyway'
